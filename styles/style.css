@@ -22,6 +22,9 @@ main{
     height: 100%;
 }
 
+
+/*Configurações da imagem do telefone*/
+
 section#telefone{
     position: absolute;
     top: 50%;
@@ -33,6 +36,8 @@ section#telefone{
     background-size: contain;
 }
 
+/*Configurações da tela inicial(HOME)*/
+
 iframe#tela{
     position: relative;
     top: 80.7px;
@@ -41,6 +46,8 @@ iframe#tela{
     width: 267px;
     height: 470px;
 }
+
+/*Configurações dos botões de redes sociais*/
 
 section#redes-sociais {
     text-align: right;
@@ -57,14 +64,14 @@ section#redes-sociais img{
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box;
+    box-sizing: border-box; /*Essa função fez com que a borda fosse incluída no tamanho total do elemento*/
 }
 
 section#redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.600);
     transform:translate(-5px, -5px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
-    transition: transform 0.4s, border 0.5s;
+    transition: transform 0.4s, border 0.5s; /*Essa função criou um tempo para as animações ao passar o mouse nos botões, 1 para o "transform" que fez com que ele demorasse mais para mudar a posição do botão, criando aquele efeito do botão subir um pouco, e 1 para o border fazendo até meio que um efeito de "pisca" nele kkkk */
 }
 
 
