@@ -19,7 +19,7 @@ body{
 
 main{
     position: relative;
-    height: 100%;
+    height: 100vh;
 }
 
 
@@ -32,8 +32,8 @@ section#telefone{
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-    background: url(../imagens/frame-iphone.png) no-repeat fixed center center;
-    background-size: contain;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+
 }
 
 /*Configurações da tela inicial(HOME)*/
